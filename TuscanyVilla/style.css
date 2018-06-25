@@ -75,7 +75,7 @@ li {
     grid-row: 8 / span 6;
     grid-column: 1 / span 6;
     background-color: white;
-    float: right;
+    float: left;
     position: relative;
     text-align: left;
     color: grey;
@@ -205,8 +205,57 @@ li {
 .container18 {
     grid-row: 45 / span 4;
     grid-column: 1 / span 6;
-    background-color: purple;
+    background-color: white;
 }
+/*.carousel-wrapper {
+    height: 200px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+}
+
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.light {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}*/
+
 
 .container19 {
     grid-row: 49 / span 2;
@@ -219,7 +268,10 @@ li {
 .container20 {
     grid-row: 51 / span 5;
     grid-column: 1 / span 6;
-    background-color: orangered;
+    background-color: white;
+    position: relative;
+    text-align: left;
+    color: #474E5D;
 }
 .container21 {
     grid-row: 56 / span 3;
@@ -227,7 +279,6 @@ li {
     background-color: #474E5D;
     position: relative;
     text-align: center;
-    color: white;
-}
+    color: white;
 
 
